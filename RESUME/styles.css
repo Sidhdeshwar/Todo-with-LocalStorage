@@ -1,0 +1,200 @@
+
+/* !Most Outer DIV */
+.most-outer{
+    border: 2px solid;
+    
+}
+.sub-outer{
+    margin: 10px 10px 10px 10px;
+}
+.container {
+    background-color: rgb(219, 144, 144);
+  }
+  /* * Name = Container */
+  .name-container{
+    background-color: rgb(222, 233, 121);
+    display: grid; 
+
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 2fr 1fr ; 
+  
+    /* row-gap: 10px; */
+    column-gap: 10px;
+    margin: 10px ;
+    /* margin-top: 10px; */
+    
+    text-align: center;
+    justify-content: center;
+
+  }
+  .sidepadding{
+    /* padding: 20px 20px 20px 20px ; */
+
+  }
+  .photo{
+    background-color: coral;
+  }
+  .photo-frame{
+    padding: 10px 10px 10px 10px;
+    /* border: 2px solid; */
+    /* margin: 10px; */
+  }
+
+  /* *About-Me Container */
+
+.aboutme-container{
+    display: grid;
+    background-color: khaki;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+    border-left: 10px solid rgb(51, 150, 231);
+    
+}
+.myinfo{
+    
+
+}
+.contact-details{
+    background-color: chocolate;
+    padding-top: 10px;
+    border-right: 10px solid rgb(51, 150, 231);
+}
+.aboutme-info{
+    padding-left: 20px;
+}
+
+/* *Education Container */
+
+.logo{
+    text-align: center;
+    vertical-align: middle;
+    background-color: brown;
+    border-right: 2px solid blue;
+}
+.logo-inner{
+    vertical-align: middle;
+    margin: 120px 0;
+}
+
+.education-container{
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    column-gap: 10px;
+    margin-top: 10px;
+   
+}
+.education-line{
+    margin-right: 10px;
+   
+}
+.education-container4{
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr; 
+   row-gap: 5px;
+   column-gap: 5px;
+   
+}
+.edu{
+    background-color: rgb(146, 174, 221);
+}
+.edu-v-line{
+    margin-left: 20px;
+}
+
+/* *Skill Container */
+
+.skill-container{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+.skill-logo{
+    text-align: center;
+    vertical-align: middle;
+
+}
+.skills-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+}
+.skill-it{
+    background-color: rgb(157, 180, 224);
+}
+.level{
+    background-color: rgb(252, 251, 251);
+    border: 1px solid;
+    border-radius: 30px;
+    
+}
+.inner-level{
+    background-color: rgb(51, 150, 231);
+    margin-right: 30px;
+    border-radius: 30px;
+    border: 0.1px solid;
+    text-align: center; 
+}
+.java{
+    margin-right: 20px;
+}
+.spring{
+    margin-right: 70px;
+}
+.SQL{
+    margin-right: 90px;
+}
+.html{
+    margin-right: 30px;
+}
+.javascript{
+    margin-right: 70px;
+
+}
+.skill-padding-top{
+    padding-top: 5px;
+}
+
+ /* *Project Container */
+.project-container{
+    margin-top: 10px;
+    background-color: rgb(90, 102, 102);
+}
+.project-line{
+    margin-right: 10px;
+}
+.Project-Heading{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.proj-details{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+
+/* *Final Container */
+.final-container{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:  rgb(51, 150, 231);
+    column-gap: 5px;
+    color: white;
+}
+.final-item{
+    /* background-color: rgb(116, 231, 231); */
+    padding-top: 10px;
+    
+}
+.final-hr-line-gap{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.final-it-name-padding{
+    margin-left: 10px;
+}
